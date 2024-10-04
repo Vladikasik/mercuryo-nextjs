@@ -11,7 +11,8 @@ export default function Home() {
         host: document.getElementById('mercuryo-widget'),
         type: 'buy',
         fiatCurrency: 'EUR',
-        cryptoCurrency: 'SOL',
+        network: 'SOLANA',
+        currency: 'SOL',
         fiatAmount: 100,
       });
     };
