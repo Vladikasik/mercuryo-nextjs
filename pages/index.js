@@ -20,10 +20,10 @@ export default function Home() {
     // Defining query parameters
     const params = {
       widget_id: widgetId,
-      type: 'buy',
-      currency: 'USDC',
+      type: 'sell',
+      currency: 'SOL',
       network: 'SOLANA',
-      amount: 30,
+      amount: 1,
       fiat_currency: 'EUR',
       address: address,
       signature: signature,
